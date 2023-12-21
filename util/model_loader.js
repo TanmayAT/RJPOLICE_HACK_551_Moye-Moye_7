@@ -12,7 +12,7 @@ async function loadModelAndPredict(x1,x2,x3,x4,x5,x6,x7,x8,x9,x10) {
         console.log(typeof x8);
         console.log(typeof x9);
         console.log(typeof x10);
-        const model = await tf.loadLayersModel('file:///media/somil/Ubuntu2/RJPolice/tensor/model.json');
+        const model = await tf.loadLayersModel('file:///media/somil/Ubuntu2/rjpolice/RJPOLICE_HACK_551_Moye-Moye_7/tensor/model.jsonmodel.json');
 
         // Make predictions using the TensorFlow.js model
         const inputTensor = tf.tensor2d([[x1,x2,x3,x4,x5,x6,x7,x8,x9,x10]]);

@@ -34,7 +34,7 @@ db.connectToDatabase()
     const x3 =+ category;
     const domain=req.body.pymt;
     const x4 =+domain;
-    const type=req.body.type;
+    const type=req.body.card;
     const x5 =+type;
 
     const atm = 65.69;
